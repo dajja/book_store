@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.add-form {
+    padding: 100px 0 0 600px;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+input {
+    width: 248px;
+}
+input, textarea {
+    padding: 5px;
+}
+button {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: red;
+    color: white;
+}

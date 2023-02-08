@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    box-sizing: border-box;
+    display: flex;
+    border: 1px solid black;
+    padding: 12px;
+    gap: 15px;
+    font-size: 16px;
+    background-color: rgb(132, 17, 17);
+    color: white;
+    position: relative;
+}
+
+.header>.inhead {
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.header>.inhead:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    transition: ease 0.6s;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 150px;
+    max-width: 100%;
+}
+
+.one-product {
+    width: 80%;
+    text-align: center;
+    box-shadow: 5px 5px 11px 5px rgba(0, 0, 0, 0.22);
+    object-fit: cover;
+    margin: 20px 0;
+    max-height: 100%;
+}
+.contentProduct {
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.productTitle, .productPrice {
+    font-weight: 900;
+}
+.productImg > img {
+    width: 100%;
+    object-fit: cover;
+}
+.buttonCart > button {
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+}
+.buttonCart > button:hover {
+    background-color: rgb(164, 50, 50);
+    color: white;
+    border: 1px solid white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
